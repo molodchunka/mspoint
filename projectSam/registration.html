@@ -28,18 +28,24 @@
             <div class="forma">
                 <form action="#">
                     <h1>Форма для регистрации</h1>
-                    ФИО<input type="text" placeholder="Фамилия Имя Отчество">
+                    ФИО<input id="name" type="text" placeholder="Фамилия Имя Отчество">
 
-                    Логин<input type="text">
+                    Логин<input id="login" type="text">
 
-                    Телефон<input type="text">
+                    Телефон<input id="tel" type="text" placeholder="+7 (XXX) XXX-XX-XX">
 
-                    Пароль<input type="password">
+                    Пароль<input id="password" type="password">
 
-                    Почта<input type="email" placeholder="test@mail.ru">
+                    Почта<input id="email" type="email" placeholder="test@mail.ru">
+                    
 
-                    <input type="submit">
+                    
+                    
+                    <input class="button" type="submit">
                     <input type="reset">
+                    <!--onclick="guess()"-->
+                     
+                    
                 </form>
             </div>
 
@@ -50,6 +56,7 @@
         </footer>
     </div>
 
+<script src="script.js"></script>
 </body>
 
 </html>
